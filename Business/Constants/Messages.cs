@@ -6,6 +6,7 @@ namespace Business.Constants
 {
     public static class Messages
     {
+        public static string Uploaded = "Yüklendi !";
         public static string Added = "Eklendi !";
         public static string Listed = "Listelendi !";
         public static string Deleted = "Silindi !";
