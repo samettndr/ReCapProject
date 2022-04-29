@@ -14,5 +14,14 @@ namespace Business.Constants
         public static string NameInvalid = "Yetersiz Karakter !";
         public static string MaintenanceTime = "Bakım Zamanı !";
         public static string Error = "Hata !";
+        public static string AuthorizationDenied = "Yetkiniz yok!";
+        public static string UserRegistered = "Kayıt olundu !";
+        public static string UserNotFound = "Kullanıcı bulunamadı!";
+        public static string PasswordError = "Yanlış parola !";
+        public static string SuccessfulLogin = "Başarılı giriş !";
+        public static string UserAlreadyExists = "Kullanıcı mevcut !";
+        public static string AccessTokenCreated = "Token oluşturuldu !";
+        public static string LoggedInFile = "Dosyaya loglandı !";
+        public static string LoggedInDatabase= "Veritabanına loglandı !";
     }
 }

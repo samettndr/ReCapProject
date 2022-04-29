@@ -20,6 +20,17 @@ namespace WebAPI.Controllers
             _userService = userService;
         }
 
+        [HttpGet("GetByUserEmail")]
+        public IActionResult GetByUserEmail(string email)
+        {
+            var result = _userService.GetByMail(email);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
         [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
